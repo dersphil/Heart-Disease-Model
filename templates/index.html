@@ -1,0 +1,116 @@
+<html>
+    <body bgcolor=#d4a3ae>
+
+        <center>
+
+        <h1> HEART DISEASE PREDICTER </h1><br>
+        
+        <form method="POST", action="{{url_for('predict')}}">
+           <b>
+            <label for="sex">Gender:</label>
+            <select id="sex" name="sex">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select><br><br>
+            <label for="race">Enter Race:</label>
+            <select id="race" name="race">
+                <option value="Asian">Asian</option>
+                <option value="Black">Black</option>
+                <option value="White">White</option>
+                <option value="Other">Other</option>
+                <option value="American Indian/Alaskan Native">American Indian/Alaskan Native</option>
+            </select><br><br>
+            <label for="age">Enter Age:</label>
+            <select id="age" name="age">
+                <option value="18-24">18-24</option>
+                <option value="25-29">25-29</option>
+                <option value="30-34">30-34</option>
+                <option value="35-39">35-39</option>
+                <option value="40-44">40-44</option>
+                <option value="45-49">45-49</option>
+                <option value="50-54">50-54</option>
+                <option value="55-59">55-59</option>
+                <option value="60-64">60-64</option>
+                <option value="65-69">65-69</option>
+                <option value="70-74">70-74</option>
+                <option value="75-79">75-79</option>
+                <option value="75-79">75-79</option>
+                <option value="80 or older">80 or older</option>
+            </select><br><br>
+               
+            <label for="smoking">Smoker:</label>
+            <select id="smoking" name="smoking">
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select><br><br>
+               
+            <label for="alcoholdrinking">Alcohol Consumer:</label>
+            <select id="alcoholdrinking" name="alcoholdrinking">
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select><br><br>
+               
+            <label for="stroke">Stroke:</label>
+            <select id="stroke" name="stroke">
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select><br><br>
+               
+            <label for="diffwalking">Difficulty Walking:</label>
+            <select id="diffwalking" name="diffwalking">
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select><br><br>
+            
+            <label for="diabetic">Diabetic:</label>
+            <select id="diabetic" name="diabetic">
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select><br><br>
+               
+            <label for="asthma">Asthma: </label>
+            <select id="asthma" name="asthma">
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select><br><br>
+            
+            <label for="kidneydisease">Kidney Disease: </label>
+            <select id="kidneydisease" name="kidneydisease">
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select><br><br>
+            
+            <label for="skincancer">Skin Cancer: </label>
+            <select id="skincancer" name="skincancer">
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select><br><br>
+            
+            <label for="physicalactivity">Physically active: </label>
+            <select id="physicalactivity" name="physicalactivity">
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select><br><br>
+               
+            <label for="generalhealth">General Health: </label>
+            <select id="generalhealth" name="generalhealth">
+                <option value="Excellent">Excellent</option>
+                <option value="Very good">Very good</option>
+                <option value="Good">Good</option>
+                <option value="Fair">Fair</option>
+                <option value="Poor">Poor</option>
+            </select><br><br>
+            
+               
+               
+               
+            <input type="submit" , value='predict!' >
+        </b>
+        </form>
+        
+        <img src='static\flower1.jpg' alt="flower">
+        
+    </center>
+
+    </body>
+</html>
